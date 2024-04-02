@@ -1,0 +1,1363 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local JJSploitv6WRD = Instance.new("ScreenGui")
+local Loader = Instance.new("Frame")
+local Top = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local Closeuibtn = Instance.new("TextButton")
+local tmbtn = Instance.new("TextButton")
+local frblxbtn = Instance.new("TextButton")
+local title_2 = Instance.new("TextLabel")
+local Attachbtn = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local title_3 = Instance.new("TextLabel")
+local Linksframe = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local title_4 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local title_5 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Frame_3 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local title_6 = Instance.new("TextLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local Frame_4 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local title_7 = Instance.new("TextLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local Executor = Instance.new("Frame")
+local Top_2 = Instance.new("Frame")
+local title_8 = Instance.new("TextLabel")
+local Closeuibtn_2 = Instance.new("TextButton")
+local tmbtn_2 = Instance.new("TextButton")
+local frblxbtn_2 = Instance.new("TextButton")
+local btns = Instance.new("Frame")
+local luabtn = Instance.new("TextButton")
+local buttonsbtn = Instance.new("TextButton")
+local Execution = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local execbtn = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local clearbtn = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local buttonstab = Instance.new("Frame")
+local btn = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local title_9 = Instance.new("TextLabel")
+local btn_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local btn_3 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local btn_4 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local btn_5 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local btn_6 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local btn_7 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local btn_8 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local btn_9 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local btn_10 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local btn_11 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local btn_12 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local btn_13 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local btn_14 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local btn_15 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+
+--Properties:
+
+JJSploitv6WRD.Name = "JJSploitv6WRD"
+JJSploitv6WRD.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+JJSploitv6WRD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Loader.Name = "Loader"
+Loader.Parent = JJSploitv6WRD
+Loader.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Loader.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loader.BorderSizePixel = 0
+Loader.Position = UDim2.new(0.24429968, 0, 0.24666667, 0)
+Loader.Size = UDim2.new(0, 627, 0, 379)
+
+Top.Name = "Top"
+Top.Parent = Loader
+Top.BackgroundColor3 = Color3.fromRGB(19, 20, 24)
+Top.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Top.BorderSizePixel = 0
+Top.Size = UDim2.new(0, 627, 0, 38)
+
+title.Name = "title"
+title.Parent = Top
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 131418.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 235, 0, 38)
+title.Font = Enum.Font.Gotham
+title.Text = "JJSploit v6.0.1 by wearedevs.net"
+title.TextColor3 = Color3.fromRGB(197, 203, 208)
+title.TextSize = 14.000
+
+Closeuibtn.Name = "Closeuibtn"
+Closeuibtn.Parent = Top
+Closeuibtn.BackgroundColor3 = Color3.fromRGB(43, 44, 48)
+Closeuibtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Closeuibtn.BorderSizePixel = 0
+Closeuibtn.Position = UDim2.new(0.940988839, 0, 0, 0)
+Closeuibtn.Size = UDim2.new(0, 37, 0, 38)
+Closeuibtn.Font = Enum.Font.Gotham
+Closeuibtn.Text = "x"
+Closeuibtn.TextColor3 = Color3.fromRGB(197, 203, 208)
+Closeuibtn.TextSize = 25.000
+
+tmbtn.Name = "tmbtn"
+tmbtn.Parent = Top
+tmbtn.BackgroundColor3 = Color3.fromRGB(39, 174, 96)
+tmbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tmbtn.BorderSizePixel = 0
+tmbtn.Position = UDim2.new(0.792663455, 0, 0, 0)
+tmbtn.Size = UDim2.new(0, 87, 0, 38)
+tmbtn.Font = Enum.Font.Gotham
+tmbtn.Text = "Top Most"
+tmbtn.TextColor3 = Color3.fromRGB(197, 203, 208)
+tmbtn.TextSize = 14.000
+
+frblxbtn.Name = "frblxbtn"
+frblxbtn.Parent = Top
+frblxbtn.BackgroundColor3 = Color3.fromRGB(43, 44, 48)
+frblxbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+frblxbtn.BorderSizePixel = 0
+frblxbtn.Position = UDim2.new(0.64274323, 0, 0, 0)
+frblxbtn.Size = UDim2.new(0, 87, 0, 38)
+frblxbtn.Font = Enum.Font.Gotham
+frblxbtn.Text = "Fix Roblox"
+frblxbtn.TextColor3 = Color3.fromRGB(197, 203, 208)
+frblxbtn.TextSize = 14.000
+
+title_2.Name = "title"
+title_2.Parent = Loader
+title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_2.BackgroundTransparency = 131418.000
+title_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_2.BorderSizePixel = 0
+title_2.Position = UDim2.new(0.0829346105, 0, 0.26121372, 0)
+title_2.Size = UDim2.new(0, 524, 0, 57)
+title_2.Font = Enum.Font.Gotham
+title_2.Text = "You must attach JJSploit to a game first"
+title_2.TextColor3 = Color3.fromRGB(197, 203, 208)
+title_2.TextScaled = true
+title_2.TextSize = 14.000
+title_2.TextWrapped = true
+
+Attachbtn.Name = "Attachbtn"
+Attachbtn.Parent = Loader
+Attachbtn.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+Attachbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Attachbtn.BorderSizePixel = 0
+Attachbtn.Position = UDim2.new(0.344497621, 0, 0.437994719, 0)
+Attachbtn.Size = UDim2.new(0, 196, 0, 48)
+Attachbtn.Font = Enum.Font.Gotham
+Attachbtn.Text = "Attach"
+Attachbtn.TextColor3 = Color3.fromRGB(197, 203, 208)
+Attachbtn.TextSize = 14.000
+
+UICorner.Parent = Attachbtn
+
+title_3.Name = "title"
+title_3.Parent = Loader
+title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_3.BackgroundTransparency = 131418.000
+title_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_3.BorderSizePixel = 0
+title_3.Position = UDim2.new(0.108452953, 0, 0.580474913, 0)
+title_3.Size = UDim2.new(0, 492, 0, 25)
+title_3.Font = Enum.Font.Unknown
+title_3.Text = "Enjoy the dark theme and major Lua executor upgrades!"
+title_3.TextColor3 = Color3.fromRGB(197, 203, 208)
+title_3.TextScaled = true
+title_3.TextSize = 14.000
+title_3.TextWrapped = true
+
+Linksframe.Name = "Linksframe"
+Linksframe.Parent = Loader
+Linksframe.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Linksframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Linksframe.BorderSizePixel = 0
+Linksframe.Position = UDim2.new(0, 0, 0.646438003, 0)
+Linksframe.Size = UDim2.new(0, 627, 0, 134)
+
+Frame.Parent = Linksframe
+Frame.BackgroundColor3 = Color3.fromRGB(254, 76, 64)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0430622026, 0, 0.343283594, 0)
+Frame.Size = UDim2.new(0, 127, 0, 56)
+
+UICorner_2.Parent = Frame
+
+title_4.Name = "title"
+title_4.Parent = Frame
+title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_4.BackgroundTransparency = 131418.000
+title_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_4.BorderSizePixel = 0
+title_4.Position = UDim2.new(0.535433054, 0, 0.107142858, 0)
+title_4.Size = UDim2.new(0, 59, 0, 43)
+title_4.Font = Enum.Font.Gotham
+title_4.Text = "Learn Code"
+title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_4.TextSize = 20.000
+title_4.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0708661452, 0, 0.107142858, 0)
+ImageLabel.Size = UDim2.new(0, 50, 0, 43)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=14311938964"
+
+Frame_2.Parent = Linksframe
+Frame_2.BackgroundColor3 = Color3.fromRGB(52, 152, 219)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.282296658, 0, 0.343283594, 0)
+Frame_2.Size = UDim2.new(0, 127, 0, 56)
+
+UICorner_3.Parent = Frame_2
+
+title_5.Name = "title"
+title_5.Parent = Frame_2
+title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_5.BackgroundTransparency = 131418.000
+title_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_5.BorderSizePixel = 0
+title_5.Position = UDim2.new(0.456692904, 0, 0.107142858, 0)
+title_5.Size = UDim2.new(0, 59, 0, 43)
+title_5.Font = Enum.Font.Gotham
+title_5.Text = "Blog"
+title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_5.TextSize = 20.000
+title_5.TextWrapped = true
+
+ImageLabel_2.Parent = Frame_2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.149606302, 0, 0.178571433, 0)
+ImageLabel_2.Size = UDim2.new(0, 39, 0, 36)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=8046472186"
+
+Frame_3.Parent = Linksframe
+Frame_3.BackgroundColor3 = Color3.fromRGB(114, 137, 218)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.518341303, 0, 0.343283594, 0)
+Frame_3.Size = UDim2.new(0, 127, 0, 56)
+
+UICorner_4.Parent = Frame_3
+
+title_6.Name = "title"
+title_6.Parent = Frame_3
+title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_6.BackgroundTransparency = 131418.000
+title_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_6.BorderSizePixel = 0
+title_6.Position = UDim2.new(0.464566916, 0, 0.267857134, 0)
+title_6.Size = UDim2.new(0, 68, 0, 26)
+title_6.Font = Enum.Font.Gotham
+title_6.Text = "Discord"
+title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_6.TextSize = 16.000
+title_6.TextWrapped = true
+
+ImageLabel_3.Parent = Frame_3
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.0708661452, 0, 0.107142858, 0)
+ImageLabel_3.Size = UDim2.new(0, 50, 0, 43)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=4559100966"
+
+Frame_4.Parent = Linksframe
+Frame_4.BackgroundColor3 = Color3.fromRGB(254, 76, 64)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.749601305, 0, 0.343283594, 0)
+Frame_4.Size = UDim2.new(0, 127, 0, 56)
+
+UICorner_5.Parent = Frame_4
+
+title_7.Name = "title"
+title_7.Parent = Frame_4
+title_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_7.BackgroundTransparency = 131418.000
+title_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_7.BorderSizePixel = 0
+title_7.Position = UDim2.new(0.535433054, 0, 0.107142858, 0)
+title_7.Size = UDim2.new(0, 59, 0, 43)
+title_7.Font = Enum.Font.Gotham
+title_7.Text = "Exploit Tutorials"
+title_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_7.TextScaled = true
+title_7.TextSize = 20.000
+title_7.TextWrapped = true
+
+ImageLabel_4.Parent = Frame_4
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.0708661452, 0, 0.107142858, 0)
+ImageLabel_4.Size = UDim2.new(0, 50, 0, 43)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=14311938964"
+
+Executor.Name = "Executor"
+Executor.Parent = JJSploitv6WRD
+Executor.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Executor.BorderSizePixel = 0
+Executor.Position = UDim2.new(0.24429968, 0, 0.24666667, 0)
+Executor.Size = UDim2.new(0, 627, 0, 379)
+Executor.Visible = false
+
+Top_2.Name = "Top"
+Top_2.Parent = Executor
+Top_2.BackgroundColor3 = Color3.fromRGB(19, 20, 24)
+Top_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Top_2.BorderSizePixel = 0
+Top_2.Size = UDim2.new(0, 627, 0, 38)
+
+title_8.Name = "title"
+title_8.Parent = Top_2
+title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_8.BackgroundTransparency = 131418.000
+title_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_8.BorderSizePixel = 0
+title_8.Size = UDim2.new(0, 235, 0, 38)
+title_8.Font = Enum.Font.Gotham
+title_8.Text = "JJSploit v6.0.1 by wearedevs.net"
+title_8.TextColor3 = Color3.fromRGB(197, 203, 208)
+title_8.TextSize = 14.000
+
+Closeuibtn_2.Name = "Closeuibtn"
+Closeuibtn_2.Parent = Top_2
+Closeuibtn_2.BackgroundColor3 = Color3.fromRGB(43, 44, 48)
+Closeuibtn_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Closeuibtn_2.BorderSizePixel = 0
+Closeuibtn_2.Position = UDim2.new(0.940988839, 0, 0, 0)
+Closeuibtn_2.Size = UDim2.new(0, 37, 0, 38)
+Closeuibtn_2.Font = Enum.Font.Gotham
+Closeuibtn_2.Text = "x"
+Closeuibtn_2.TextColor3 = Color3.fromRGB(197, 203, 208)
+Closeuibtn_2.TextSize = 25.000
+
+tmbtn_2.Name = "tmbtn"
+tmbtn_2.Parent = Top_2
+tmbtn_2.BackgroundColor3 = Color3.fromRGB(39, 174, 96)
+tmbtn_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tmbtn_2.BorderSizePixel = 0
+tmbtn_2.Position = UDim2.new(0.792663455, 0, 0, 0)
+tmbtn_2.Size = UDim2.new(0, 87, 0, 38)
+tmbtn_2.Font = Enum.Font.Gotham
+tmbtn_2.Text = "Top Most"
+tmbtn_2.TextColor3 = Color3.fromRGB(197, 203, 208)
+tmbtn_2.TextSize = 14.000
+
+frblxbtn_2.Name = "frblxbtn"
+frblxbtn_2.Parent = Top_2
+frblxbtn_2.BackgroundColor3 = Color3.fromRGB(43, 44, 48)
+frblxbtn_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+frblxbtn_2.BorderSizePixel = 0
+frblxbtn_2.Position = UDim2.new(0.64274323, 0, 0, 0)
+frblxbtn_2.Size = UDim2.new(0, 87, 0, 38)
+frblxbtn_2.Font = Enum.Font.Gotham
+frblxbtn_2.Text = "Fix Roblox"
+frblxbtn_2.TextColor3 = Color3.fromRGB(197, 203, 208)
+frblxbtn_2.TextSize = 14.000
+
+btns.Name = "btns"
+btns.Parent = Executor
+btns.BackgroundColor3 = Color3.fromRGB(19, 20, 24)
+btns.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btns.BorderSizePixel = 0
+btns.Position = UDim2.new(0, 0, 0.100263849, 0)
+btns.Size = UDim2.new(0, 627, 0, 38)
+
+luabtn.Name = "luabtn"
+luabtn.Parent = btns
+luabtn.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+luabtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+luabtn.BorderSizePixel = 0
+luabtn.Position = UDim2.new(0.507177055, 0, 0, 0)
+luabtn.Size = UDim2.new(0, 309, 0, 38)
+luabtn.Font = Enum.Font.Gotham
+luabtn.Text = "Lua"
+luabtn.TextColor3 = Color3.fromRGB(197, 203, 208)
+luabtn.TextSize = 15.000
+
+buttonsbtn.Name = "buttonsbtn"
+buttonsbtn.Parent = btns
+buttonsbtn.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+buttonsbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+buttonsbtn.BorderSizePixel = 0
+buttonsbtn.Size = UDim2.new(0, 307, 0, 38)
+buttonsbtn.Font = Enum.Font.Gotham
+buttonsbtn.Text = "Buttons"
+buttonsbtn.TextColor3 = Color3.fromRGB(197, 203, 208)
+buttonsbtn.TextSize = 15.000
+
+Execution.Name = "Execution"
+Execution.Parent = Executor
+Execution.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Execution.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execution.BorderSizePixel = 0
+Execution.Position = UDim2.new(0, 0, 0.200527698, 0)
+Execution.Size = UDim2.new(0, 627, 0, 303)
+
+TextLabel.Parent = Execution
+TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 26, 0, 250)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+TextLabel.TextYAlignment = Enum.TextYAlignment.Top
+
+TextBox.Parent = Execution
+TextBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0414673053, 0, 0, 0)
+TextBox.Size = UDim2.new(0, 601, 0, 250)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.GothamBold
+TextBox.MultiLine = true
+TextBox.PlaceholderText = "--Find Lua scripts online and paste them here!"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+execbtn.Name = "execbtn"
+execbtn.Parent = Execution
+execbtn.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+execbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execbtn.BorderSizePixel = 0
+execbtn.Position = UDim2.new(0.832535863, 0, 0.857136667, 0)
+execbtn.Size = UDim2.new(0, 96, 0, 34)
+execbtn.Font = Enum.Font.GothamBold
+execbtn.Text = "Execute"
+execbtn.TextColor3 = Color3.fromRGB(197, 203, 208)
+execbtn.TextSize = 18.000
+
+UICorner_6.Parent = execbtn
+
+clearbtn.Name = "clearbtn"
+clearbtn.Parent = Execution
+clearbtn.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+clearbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clearbtn.BorderSizePixel = 0
+clearbtn.Position = UDim2.new(0.665071785, 0, 0.857136667, 0)
+clearbtn.Size = UDim2.new(0, 96, 0, 34)
+clearbtn.Font = Enum.Font.GothamBold
+clearbtn.Text = "Clear"
+clearbtn.TextColor3 = Color3.fromRGB(197, 203, 208)
+clearbtn.TextSize = 18.000
+
+UICorner_7.Parent = clearbtn
+
+buttonstab.Name = "buttonstab"
+buttonstab.Parent = Executor
+buttonstab.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+buttonstab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+buttonstab.BorderSizePixel = 0
+buttonstab.Position = UDim2.new(0, 0, 0.200527698, 0)
+buttonstab.Size = UDim2.new(0, 627, 0, 303)
+buttonstab.Visible = false
+
+btn.Name = "btn"
+btn.Parent = buttonstab
+btn.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn.BorderSizePixel = 0
+btn.Position = UDim2.new(0.379585326, 0, 0.193770304, 0)
+btn.Size = UDim2.new(0, 152, 0, 34)
+btn.Font = Enum.Font.GothamBold
+btn.Text = "Infnite Jump"
+btn.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn.TextSize = 18.000
+
+UICorner_8.Parent = btn
+
+title_9.Name = "title"
+title_9.Parent = buttonstab
+title_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_9.BackgroundTransparency = 131418.000
+title_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_9.BorderSizePixel = 0
+title_9.Position = UDim2.new(0.312599689, 0, 0.0462046191, 0)
+title_9.Size = UDim2.new(0, 235, 0, 38)
+title_9.Font = Enum.Font.GothamBold
+title_9.Text = "Common"
+title_9.TextColor3 = Color3.fromRGB(197, 203, 208)
+title_9.TextSize = 20.000
+
+btn_2.Name = "btn"
+btn_2.Parent = buttonstab
+btn_2.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_2.BorderSizePixel = 0
+btn_2.Position = UDim2.new(0.631578922, 0, 0.193770304, 0)
+btn_2.Size = UDim2.new(0, 152, 0, 34)
+btn_2.Font = Enum.Font.GothamBold
+btn_2.Text = "Aimbot"
+btn_2.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_2.TextSize = 18.000
+
+UICorner_9.Parent = btn_2
+
+btn_3.Name = "btn"
+btn_3.Parent = buttonstab
+btn_3.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_3.BorderSizePixel = 0
+btn_3.Position = UDim2.new(0.122807018, 0, 0.193770304, 0)
+btn_3.Size = UDim2.new(0, 152, 0, 34)
+btn_3.Font = Enum.Font.GothamBold
+btn_3.Text = "ctrl+click tp"
+btn_3.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_3.TextSize = 18.000
+
+UICorner_10.Parent = btn_3
+
+btn_4.Name = "btn"
+btn_4.Parent = buttonstab
+btn_4.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_4.BorderSizePixel = 0
+btn_4.Position = UDim2.new(0.379585326, 0, 0.345585495, 0)
+btn_4.Size = UDim2.new(0, 152, 0, 34)
+btn_4.Font = Enum.Font.GothamBold
+btn_4.Text = "God mode"
+btn_4.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_4.TextSize = 18.000
+
+UICorner_11.Parent = btn_4
+
+btn_5.Name = "btn"
+btn_5.Parent = buttonstab
+btn_5.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_5.BorderSizePixel = 0
+btn_5.Position = UDim2.new(0.631578922, 0, 0.345585495, 0)
+btn_5.Size = UDim2.new(0, 152, 0, 34)
+btn_5.Font = Enum.Font.GothamBold
+btn_5.Text = "Noclip"
+btn_5.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_5.TextSize = 18.000
+
+UICorner_12.Parent = btn_5
+
+btn_6.Name = "btn"
+btn_6.Parent = buttonstab
+btn_6.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_6.BorderSizePixel = 0
+btn_6.Position = UDim2.new(0.122807018, 0, 0.345585495, 0)
+btn_6.Size = UDim2.new(0, 152, 0, 34)
+btn_6.Font = Enum.Font.GothamBold
+btn_6.Text = "Fly"
+btn_6.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_6.TextSize = 18.000
+
+UICorner_13.Parent = btn_6
+
+btn_7.Name = "btn"
+btn_7.Parent = buttonstab
+btn_7.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_7.BorderSizePixel = 0
+btn_7.Position = UDim2.new(0.379585326, 0, 0.494100332, 0)
+btn_7.Size = UDim2.new(0, 152, 0, 34)
+btn_7.Font = Enum.Font.GothamBold
+btn_7.Text = "No Legs"
+btn_7.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_7.TextSize = 18.000
+
+UICorner_14.Parent = btn_7
+
+btn_8.Name = "btn"
+btn_8.Parent = buttonstab
+btn_8.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_8.BorderSizePixel = 0
+btn_8.Position = UDim2.new(0.631578922, 0, 0.494100332, 0)
+btn_8.Size = UDim2.new(0, 152, 0, 34)
+btn_8.Font = Enum.Font.GothamBold
+btn_8.Text = "Float"
+btn_8.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_8.TextSize = 18.000
+
+UICorner_15.Parent = btn_8
+
+btn_9.Name = "btn"
+btn_9.Parent = buttonstab
+btn_9.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_9.BorderSizePixel = 0
+btn_9.Position = UDim2.new(0.122807018, 0, 0.494100332, 0)
+btn_9.Size = UDim2.new(0, 152, 0, 34)
+btn_9.Font = Enum.Font.GothamBold
+btn_9.Text = "Flashlight"
+btn_9.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_9.TextSize = 18.000
+
+UICorner_16.Parent = btn_9
+
+btn_10.Name = "btn"
+btn_10.Parent = buttonstab
+btn_10.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_10.BorderSizePixel = 0
+btn_10.Position = UDim2.new(0.379585326, 0, 0.645915508, 0)
+btn_10.Size = UDim2.new(0, 152, 0, 34)
+btn_10.Font = Enum.Font.GothamBold
+btn_10.Text = "High Hips"
+btn_10.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_10.TextSize = 18.000
+
+UICorner_17.Parent = btn_10
+
+btn_11.Name = "btn"
+btn_11.Parent = buttonstab
+btn_11.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_11.BorderSizePixel = 0
+btn_11.Position = UDim2.new(0.631578922, 0, 0.645915508, 0)
+btn_11.Size = UDim2.new(0, 152, 0, 34)
+btn_11.Font = Enum.Font.GothamBold
+btn_11.Text = "Btools"
+btn_11.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_11.TextSize = 18.000
+
+UICorner_18.Parent = btn_11
+
+btn_12.Name = "btn"
+btn_12.Parent = buttonstab
+btn_12.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_12.BorderSizePixel = 0
+btn_12.Position = UDim2.new(0.122807018, 0, 0.645915508, 0)
+btn_12.Size = UDim2.new(0, 152, 0, 34)
+btn_12.Font = Enum.Font.GothamBold
+btn_12.Text = "Chat troll"
+btn_12.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_12.TextSize = 18.000
+
+UICorner_19.Parent = btn_12
+
+btn_13.Name = "btn"
+btn_13.Parent = buttonstab
+btn_13.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_13.BorderSizePixel = 0
+btn_13.Position = UDim2.new(0.631578922, 0, 0.801031053, 0)
+btn_13.Size = UDim2.new(0, 152, 0, 34)
+btn_13.Font = Enum.Font.GothamBold
+btn_13.Text = "Limp"
+btn_13.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_13.TextSize = 18.000
+
+UICorner_20.Parent = btn_13
+
+btn_14.Name = "btn"
+btn_14.Parent = buttonstab
+btn_14.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_14.BorderSizePixel = 0
+btn_14.Position = UDim2.new(0.379585326, 0, 0.801031053, 0)
+btn_14.Size = UDim2.new(0, 152, 0, 34)
+btn_14.Font = Enum.Font.GothamBold
+btn_14.Text = "Suicide"
+btn_14.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_14.TextSize = 18.000
+
+UICorner_21.Parent = btn_14
+
+btn_15.Name = "btn"
+btn_15.Parent = buttonstab
+btn_15.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+btn_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn_15.BorderSizePixel = 0
+btn_15.Position = UDim2.new(0.122807018, 0, 0.801031053, 0)
+btn_15.Size = UDim2.new(0, 152, 0, 34)
+btn_15.Font = Enum.Font.GothamBold
+btn_15.Text = "Toggle Night"
+btn_15.TextColor3 = Color3.fromRGB(197, 203, 208)
+btn_15.TextSize = 18.000
+
+UICorner_22.Parent = btn_15
+
+-- Scripts:
+
+local function PMXGC_fake_script() -- Closeuibtn.LocalScript 
+	local script = Instance.new('LocalScript', Closeuibtn)
+
+	local coregui = script.Parent.Parent.Parent.Parent.Parent.JJSploitv6WRD
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yes" then
+				coregui.Enabled = false
+			elseif response == "nahh" then
+				warn("nahh")
+			end
+		end
+		
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "Are you sure you want to FULLY disable the ui?",
+			Duration = 5,
+			Button1 = "Yes",
+			Button2 = "nahh",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(PMXGC_fake_script)()
+local function EPZL_fake_script() -- tmbtn.LocalScript 
+	local script = Instance.new('LocalScript', tmbtn)
+
+	local button = script.Parent
+	local redColor = Color3.new(1, 0, 0)
+	local greenColor = Color3.new(39/255, 174/255, 96/255)
+	local isRed = true
+	
+	local function toggleButtonColor()
+		if isRed then
+			button.BackgroundColor3 = greenColor
+			isRed = false
+		else
+			button.BackgroundColor3 = redColor
+			isRed = true
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleButtonColor)
+	
+end
+coroutine.wrap(EPZL_fake_script)()
+local function PAWE_fake_script() -- frblxbtn.LocalScript 
+	local script = Instance.new('LocalScript', frblxbtn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer:Kick("Well you asked for it lol")
+	end)
+end
+coroutine.wrap(PAWE_fake_script)()
+local function IBQUIV_fake_script() -- Loader.LocalScript 
+	local script = Instance.new('LocalScript', Loader)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	local gui = script.Parent
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	gui.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = false
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			local delta = input.Position - dragStart
+			local goal = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			local tween = TweenService:Create(gui, TweenInfo.new(0.25), {Position = goal})
+			tween:Play()
+		end
+	end)
+	
+end
+coroutine.wrap(IBQUIV_fake_script)()
+local function WYVLC_fake_script() -- Attachbtn.LocalScript 
+	local script = Instance.new('LocalScript', Attachbtn)
+
+	local exec = script.Parent.Parent.Parent.Executor
+	local mainui = script.Parent.Parent.Parent.Loader
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		exec.Visible = true
+		mainui.Visible = false
+	end)
+end
+coroutine.wrap(WYVLC_fake_script)()
+local function CRGKXBF_fake_script() -- Closeuibtn_2.LocalScript 
+	local script = Instance.new('LocalScript', Closeuibtn_2)
+
+	local coregui = script.Parent.Parent.Parent.Parent.Parent.JJSploitv6WRD
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yes" then
+				coregui.Enabled = false
+			elseif response == "nahh" then
+				warn("nahh")
+			end
+		end
+		
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "Are you sure you want to FULLY disable the ui?",
+			Duration = 5,
+			Button1 = "Yes",
+			Button2 = "nahh",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(CRGKXBF_fake_script)()
+local function RKDHMK_fake_script() -- tmbtn_2.LocalScript 
+	local script = Instance.new('LocalScript', tmbtn_2)
+
+	local button = script.Parent
+	local redColor = Color3.new(1, 0, 0)
+	local greenColor = Color3.new(39/255, 174/255, 96/255)
+	local isRed = true
+	
+	local function toggleButtonColor()
+		if isRed then
+			button.BackgroundColor3 = greenColor
+			isRed = false
+		else
+			button.BackgroundColor3 = redColor
+			isRed = true
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleButtonColor)
+	
+end
+coroutine.wrap(RKDHMK_fake_script)()
+local function XBZYMBT_fake_script() -- frblxbtn_2.LocalScript 
+	local script = Instance.new('LocalScript', frblxbtn_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer:Kick("Well you asked for it lol")
+	end)
+end
+coroutine.wrap(XBZYMBT_fake_script)()
+local function EYBFEPE_fake_script() -- Executor.LocalScript 
+	local script = Instance.new('LocalScript', Executor)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	local gui = script.Parent
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	gui.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = false
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			local delta = input.Position - dragStart
+			local goal = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			local tween = TweenService:Create(gui, TweenInfo.new(0.25), {Position = goal})
+			tween:Play()
+		end
+	end)
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	local guiElement = script.Parent
+	local toggleKey = Enum.KeyCode.Home
+	
+	local function onKeyPress(input)
+		if input.KeyCode == toggleKey then
+			guiElement.Visible = not guiElement.Visible
+		end
+	end
+	
+	UserInputService.InputBegan:Connect(onKeyPress)
+	
+end
+coroutine.wrap(EYBFEPE_fake_script)()
+local function UBNBMDX_fake_script() -- luabtn.LocalScript 
+	local script = Instance.new('LocalScript', luabtn)
+
+	local exetab = script.Parent.Parent.Parent.Execution
+	local buttonstab = script.Parent.Parent.Parent.buttonstab
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		exetab.Visible = true
+		buttonstab.Visible = false
+	end)
+end
+coroutine.wrap(UBNBMDX_fake_script)()
+local function DBMY_fake_script() -- buttonsbtn.LocalScript 
+	local script = Instance.new('LocalScript', buttonsbtn)
+
+	local exetab = script.Parent.Parent.Parent.Execution
+	local buttonstab = script.Parent.Parent.Parent.buttonstab
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		exetab.Visible = false
+		buttonstab.Visible = true
+	end)
+end
+coroutine.wrap(DBMY_fake_script)()
+local function MJTDEOV_fake_script() -- execbtn.LocalScript 
+	local script = Instance.new('LocalScript', execbtn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(script.Parent.Parent.TextBox.Text)()
+	end)
+end
+coroutine.wrap(MJTDEOV_fake_script)()
+local function ZQRG_fake_script() -- clearbtn.LocalScript 
+	local script = Instance.new('LocalScript', clearbtn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.TextBox.Text = ""
+	end)
+end
+coroutine.wrap(ZQRG_fake_script)()
+local function EKWWH_fake_script() -- btn.LocalScript 
+	local script = Instance.new('LocalScript', btn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(EKWWH_fake_script)()
+local function YFZHYXD_fake_script() -- btn_2.LocalScript 
+	local script = Instance.new('LocalScript', btn_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(YFZHYXD_fake_script)()
+local function PFWFKD_fake_script() -- btn_3.LocalScript 
+	local script = Instance.new('LocalScript', btn_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(PFWFKD_fake_script)()
+local function JZTEKWE_fake_script() -- btn_4.LocalScript 
+	local script = Instance.new('LocalScript', btn_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(JZTEKWE_fake_script)()
+local function UPUUG_fake_script() -- btn_5.LocalScript 
+	local script = Instance.new('LocalScript', btn_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(UPUUG_fake_script)()
+local function CMCQOVM_fake_script() -- btn_6.LocalScript 
+	local script = Instance.new('LocalScript', btn_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(CMCQOVM_fake_script)()
+local function OAXWO_fake_script() -- btn_7.LocalScript 
+	local script = Instance.new('LocalScript', btn_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(OAXWO_fake_script)()
+local function NFGUWQ_fake_script() -- btn_8.LocalScript 
+	local script = Instance.new('LocalScript', btn_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(NFGUWQ_fake_script)()
+local function OZLNCSD_fake_script() -- btn_9.LocalScript 
+	local script = Instance.new('LocalScript', btn_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(OZLNCSD_fake_script)()
+local function PJZBT_fake_script() -- btn_10.LocalScript 
+	local script = Instance.new('LocalScript', btn_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(PJZBT_fake_script)()
+local function UJJA_fake_script() -- btn_11.LocalScript 
+	local script = Instance.new('LocalScript', btn_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(UJJA_fake_script)()
+local function FCMANFR_fake_script() -- btn_12.LocalScript 
+	local script = Instance.new('LocalScript', btn_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(FCMANFR_fake_script)()
+local function PJZWC_fake_script() -- btn_13.LocalScript 
+	local script = Instance.new('LocalScript', btn_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(PJZWC_fake_script)()
+local function JCARGSF_fake_script() -- btn_14.LocalScript 
+	local script = Instance.new('LocalScript', btn_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(JCARGSF_fake_script)()
+local function UVPSU_fake_script() -- btn_15.LocalScript 
+	local script = Instance.new('LocalScript', btn_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		local callbackFunction = Instance.new("BindableFunction")
+		callbackFunction.OnInvoke = function(response)
+			if response == "Yeah sorry" then
+				
+			elseif response == "Yeah sorry (again)" then
+				
+			end
+		end
+	
+		StarterGui:SetCore("SendNotification", {
+			Title = "JJsploit",
+			Text = "are you here for the lua tab or what?",
+			Duration = 5,
+			Button1 = "Yeah sorry",
+			Button2 = "Yeah sorry (again)",
+			Callback = callbackFunction
+		})
+	end)
+end
+coroutine.wrap(UVPSU_fake_script)()
